@@ -2,6 +2,7 @@
   "main": "node_modules/expo/AppEntry.js",
   "version": "1.0.0",
   "scripts": {
+    "install": "npm install && npm run build",
     "start": "expo start",
     "build": "tsc",
     "android": "expo start --android",
