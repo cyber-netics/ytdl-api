@@ -1,22 +1,20 @@
 {
-    "compilerOptions": {
-        "target": "ES2015",
-        "module": "commonjs",
-        "lib": [
-            "esnext"
-        ],
-        "importHelpers": true,
-        "declaration": true,
-        "sourceMap": false,
-        "outDir": "downloader",
-        "rootDir": "./api",
-        // "strict": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "noImplicitReturns": true,
-        "noFallthroughCasesInSwitch": true,
-        // "moduleResolution": "node",
-        // "jsx": "react",
-        "esModuleInterop": true
-    }
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    "lib": ["esnext"],
+    "importHelpers": true,
+    "declaration": true,
+    "sourceMap": false,
+    "outDir": "dist",
+    "rootDir": "./src",
+    // "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    // "moduleResolution": "node",
+    // "jsx": "react",
+    "esModuleInterop": true
+  }
 }
